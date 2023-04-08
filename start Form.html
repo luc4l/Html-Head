@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <form action="action_page.php">
+      <div class="container">
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+
+        <div>
+          <div style="float:left;"> <label for="name"><b>Name</b></label>
+              <input type="Name" placeholder="Name" name="name" id="name" required>
+          </div>
+          <div> <label for="Last Name"><b>Last Name</b></label>
+              <input type="Last Name" placeholder="Last Name" name="Last Name" id="Last Name" required>
+          </div>
+        </div>
+
+        <div style="clear:both;"></div>
+
+        <br>
+
+        <label for="Date for Birth"><b>Date of Birth:</b></label>
+        <input type="date" placeholder="Date of Birth" id="Date of Birth" name="Date"
+        value="2018-07-22"
+        min="1920-01-01" max="2023-04-08">
+
+        <hr>
+
+        <label for="Tel"><b>Telephone number</b></label>
+        <input type="Tel" placeholder="Telephone number" name="Tel" id="Tel" required>
+
+        
+
+      <hr>  
+
+      <div>
+        <form action="/action_page.php">
+          <label for="plans"><b>Choosing plans:</b></label>
+          <div style="float:left;"> 
+                <select name="plans" id="cars">
+                <option value="select">Select</option>
+                <option value="plan 1">Free Plan 0€</option>
+                <option value="plan 2">Students Plan 100€</option>
+                <option value="plan 3">Expert Plan 500€</option>
+                </select>
+          </div>
+
+          <div style="float:left;">
+                <input type="checkbox" id="Pro" name="Pro">
+                <label for="Pro">Pro Plan</label>
+          </div>
+        
+
+      </div>
+
+      <div style="clear:both;"></div>
+
+      <hr>
+
+      <div class="container">
+        <h3>Pay Method</h3>
+        <p><b>Please enter card details:</b></p>
+        
+        
+        <div>
+          <div style="float:left;"> <label for="credit"><b>Credit card number</b></label>
+              <input type="Credit" placeholder="Credit card number" name="Credit" id="Credit" required>
+          </div>
+          <div> <label for="CvC"><b>CVC code</b></label>
+              <input type="CvC" placeholder="CVC code" name="CvC" id="CvC" required>
+          </div>
+      </div>
+
+      <div style="clear:both;"></div>
+
+      <br>
+
+      <label for="Expiration date"><b>Expiration date</b></label>
+        <input type="Date" placeholder="Expiration date" id="Date" name="Date"
+        value="2018-07-22"
+        min="1920-01-01" max="2080-04-08">
+      
+      <hr>
+      <br>
+
+      <div class="container">
+        <h3>Billing Address</h3>
+        <p><b>Please enter the Billing Address:</b></p>
+        
+        
+        <div>
+          <div style="float:left;"> <label for="Stret"><b>Street and Number</b></label>
+              <input type="Street" placeholder="Street" name="Street and Number" id="Street" required>
+          </div>
+          <div> <label for="Country"><b>Country</b></label>
+              <input type="Country" placeholder="Country" name="Country" id="Country" required>
+          </div>
+          <div> <label for="Zip"><b>Zip Code</b></label>
+            <input type="Zip" placeholder="Zip" name="Zip Code" id="Zip" required>
+          
+        </div>
+
+      <hr>
+          
+      </div>
+
+      <div style="clear:both;"></div>
+
+      <br>
+
+
+
+
+
+    </form>  
+
+
+      
+
+    <br>
+          <input type="submit" value="Submit">
+        
+      </div>
+
+<p><U><b>Click the "Submit" button to pay and to confirm registration !</b></U></p>
+
+
+
+      </div>
+      
+
+        
+
+    
+      
+
+
+
+      
+    
+    </form>
+
+
+
+
+
+
+
+
+  </body>
+</html>
