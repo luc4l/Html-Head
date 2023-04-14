@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <nav>
-    <ul>
-      <div>
-        <div>
-          <a class="navbar-brand" href="#"><b>Navbar</b></a>
-          <a class="nav-link" href="#"><b>Home</b></a>
-          <a class="nav-link" href="#">Link</a>
-          <a class="nav-link" href="#">Dropdown</a>    
-          <a class="dropdown-item" href="#">Disabled</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+
+      <div class="nav">
+        <div class="nav_left">
+          <span class="logo">NavBar</span>
+          <div class="menu">
+            <a class="navbar-brand" href="#"><b>Navbar</b></a>
+            <a class="nav-home" href="#"><b>Home</b></a>
+            <a class="nav-link" href="#">Link</a>
+            <div id="dropdown">
+              <a href="#" id="bottone_drop">Dropdown</a>
+              <div id="content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+              </div>
+              <a class="dropdown-item" href="#">Disabled</a>
+            </div>
+            <div class="nav_right">
+              <div class="nav_search">
+                <input type="search" id="search" placeholder="Search">
+                <button type="submit" id="submit">Search</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <form class="form-inline">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn" type="submit">Search</button>
-          </form> 
-        </div> 
-      </div>
-    </ul>
-  </nav>
+
+      </nav>
+
+    </body>
+  </html>
+
   
-</body>
-</html>
